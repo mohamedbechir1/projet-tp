@@ -1,0 +1,45 @@
+.buttonForm {
+    background-color: white;
+    font-weight: bold;
+    font-size: large;
+    width: 200px;
+    cursor: pointer;
+}
+
+.book-container {
+    display: flex;
+    /* display movies in row */
+    flex-wrap: wrap;
+    /* allow movies to wrap to next line if needed */
+}
+
+.book-rectangle {
+    width: 200px;
+    /* set width of each movie rectangle */
+    height: 450px;
+    /* set height of each movie rectangle */
+    margin: 10px;
+    /* add some spacing between each movie rectangle */
+    border: 1px solid #ccc;
+    /* add a border around each movie rectangle */
+}
+
+.add-book-rectangle {
+    width: 200px;
+    /* set width of each movie rectangle */
+    height: 450px;
+    /* set height of each movie rectangle */
+    margin: 10px;
+    /* add some spacing between each movie rectangle */
+    border: 1px solid #ccc;
+    /* add a border around each movie rectangle */
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.65%;
+    background-color: rgb(153, 151, 151);
+    height: 100px;
+}
